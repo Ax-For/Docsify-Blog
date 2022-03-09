@@ -14,6 +14,7 @@
 Catalina可以看作由两个主要模块组成: 连接器（connector）和容器（container）
 
 ![](pics/catalina-module-v1.png)
+> 去除缩放
 
 连接器用于“连接”容器里的请求，对于接收到的每一个`HTTP`请求构造一个`request`对象和一个`response`对象，然后把流程传递给容器。
 
